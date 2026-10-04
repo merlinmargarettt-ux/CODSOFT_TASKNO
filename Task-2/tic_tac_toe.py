@@ -23,7 +23,7 @@ def check_winner(player):
         (0, 3, 6),
         (1, 4, 7),
         (2, 5, 8),
-        (0, 4, 7),
+        (0, 4, 8),
         (2, 4, 6)
     ]
 
@@ -60,16 +60,17 @@ def minimax(is_maximizing):
 
         return best_score
 
-    best_score = math.inf
+    else:
+        best_score = math.inf
 
-    for i in range(9):
-        if board[i] == " ":
-            board[i] = "X"
-            score = minimax(True)
-            board[i] = " "
-            best_score = min(best_score, score)
+        for i in range(9):
+            if board[i] == " ":
+                board[i] = "X"
+                score = minimax(True)
+                board[i] = " "
+                best_score = min(best_score, score)
 
-    return best_score
+        return best_score
 
 
 def ai_move():
