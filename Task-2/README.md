@@ -55,4 +55,4 @@ python tic_tac_toe.py
 
 
 ## DEMO VIDEO
-https://drive.google.com/file/d/1J2YO0pthZnXp2PbwBk9lmTaPJnqv8d-k/view?usp=drivesdk
+https://drive.google.com/file/d/1PXuV-8XnEd95YpMM72vzh2uUq14MWBwb/view?usp=drivesdk
